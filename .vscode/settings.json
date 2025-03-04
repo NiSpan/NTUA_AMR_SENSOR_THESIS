@@ -1,0 +1,38 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32c6",
+    "idf.customExtraPaths": "C:\\Users\\Nikos\\.espressif\\tools\\xtensa-esp-elf-gdb\\14.2_20240403\\xtensa-esp-elf-gdb\\bin;C:\\Users\\Nikos\\.espressif\\tools\\riscv32-esp-elf-gdb\\14.2_20240403\\riscv32-esp-elf-gdb\\bin;C:\\Users\\Nikos\\.espressif\\tools\\xtensa-esp-elf\\esp-13.2.0_20240530\\xtensa-esp-elf\\bin;C:\\Users\\Nikos\\.espressif\\tools\\riscv32-esp-elf\\esp-13.2.0_20240530\\riscv32-esp-elf\\bin;C:\\Users\\Nikos\\.espressif\\tools\\esp32ulp-elf\\2.38_20240113\\esp32ulp-elf\\bin;C:\\Users\\Nikos\\.espressif\\tools\\cmake\\3.24.0\\bin;C:\\Users\\Nikos\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20240318\\openocd-esp32\\bin;C:\\Users\\Nikos\\.espressif\\tools\\ninja\\1.11.1;C:\\Users\\Nikos\\.espressif\\tools\\idf-exe\\1.0.3;C:\\Users\\Nikos\\.espressif\\tools\\ccache\\4.8\\ccache-4.8-windows-x86_64;C:\\Users\\Nikos\\.espressif\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;C:\\Users\\Nikos\\.espressif\\tools\\esp-rom-elfs\\20240305",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "/home/esp/esp/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
+        "ESP_ROM_ELF_DIR": "/home/esp/esp/.espressif/tools/esp-rom-elfs/20240305/"
+    },
+    "idf.espIdfPathWin": "C:\\Users\\Nikos\\esp\\v5.4\\esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32c6-bridge.cfg"
+    ],
+    "idf.portWin": "COM7",
+    "idf.pythonBinPathWin": "C:\\Users\\Nikos\\.espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "C:\\Users\\Nikos\\.espressif",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "task.h": "c",
+        "esp_mac.h": "c",
+        "esp_system.h": "c",
+        "i2c.h": "c",
+        "cstdint": "c",
+        "freertos.h": "c",
+        "i2c_master.h": "c",
+        "lis3mdl_registers.h": "c",
+        "i2c_defines.h": "c",
+        "mqtt_client.h": "c",
+        "type_traits": "c",
+        "json_esp.h": "c",
+        "lis3mdl.h": "c",
+        "mqtt_amr.h": "c",
+        "esp_mesh_internal.h": "c",
+        "event_groups.h": "c",
+        "nvs_flash.h": "c",
+        "gpio.h": "c",
+        "esp_pm.h": "c"
+    }
+}

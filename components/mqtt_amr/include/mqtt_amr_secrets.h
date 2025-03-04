@@ -1,0 +1,8 @@
+#ifndef MQTT_AMR_SECRETS_H
+#define MQTT_AMR_SECRETS_H
+
+#define CONFIG_BROKER_URI "mqtt://192.168.2.4:1883"
+#define CONFIG_BROKER_USERNAME "xxxxx"
+#define CONFIG_BROKER_PASSWORD "xxxxx"
+
+#endif // MQTT_AMR_SECRETS_H

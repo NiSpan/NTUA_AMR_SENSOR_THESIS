@@ -1,0 +1,8 @@
+#ifndef MESH_AMR_SECRETS_H
+#define MESH_AMR_SECRETS_H
+
+#define CONFIG_MESH_ROUTER_SSID "xxxxxxxx"
+#define CONFIG_MESH_ROUTER_PASSWD "xxxxxx"
+#define CONFIG_MESH_AP_PASSWD "xxxxxx"
+
+#endif // MESH_AMR_SECRETS_H

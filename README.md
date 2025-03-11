@@ -1,5 +1,12 @@
 # Steel Health Monitoring with AMR Sensors
 
+## Description
+This repository contains code used for the implementation of an IoT-enabled AMR sensor, using:
+- LIS2MDL AMR sensor for reading magnetic flux density 
+- ESP32-C6 as the microcontroller of the embedded system
+- ESP-IDF for development
+- ESP-WIFI-MESH for mesh network implementation
+
 ## Abstract
 Steel health monitoring is of vital importance for assessing the integrity of steel structures in critical infrastructure and industrial applications. Magnetic techniques, such as monitoring differential permeability, which can be used in combination with Magnetic Stress Calibration (MASC) curves, enable non-destructive testing to detect defects in ferromagnetic materials like steel by monitoring their magnetic properties.
 
@@ -12,7 +19,6 @@ The sensor system was evaluated for its ability to detect magnetic field variati
 - AMR sensor for magnetic flux density measurements
 - IoT-enabled wireless data transmission
 - Support for Wi-Fi mesh networking
-- Real-time data visualization via a web interface
 
 ## Keywords
 - Anisotropic Magnetoresistance (AMR) Sensors
@@ -21,31 +27,7 @@ The sensor system was evaluated for its ability to detect magnetic field variati
 - Internet of Things (IoT)
 - Wi-Fi Mesh Network
 
-## Installation
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/yourusername/steel-health-monitoring.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd steel-health-monitoring
-   ```
-3. Install dependencies (if applicable):
-   ```sh
-   pip install -r requirements.txt  # For Python projects
-   ```
-
-## Usage
-1. Deploy the sensor nodes in the desired locations.
-2. Power on the microcontrollers and establish a Wi-Fi mesh network.
-3. Access the web interface to visualize real-time sensor data.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Author
-[Your Name] - [Your Institution]
-
-## Acknowledgments
-- National Technical University of Athens
-- Supervisors and research advisors
+Nikolaos Spanidis
+School of Electrical and Comupter Engineering
+National Technical University of Athens

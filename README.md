@@ -29,5 +29,5 @@ The sensor system was evaluated for its ability to detect magnetic field variati
 
 ## Author
 Nikolaos Spanidis
-School of Electrical and Comupter Engineering
+School of Electrical and Computer Engineering
 National Technical University of Athens

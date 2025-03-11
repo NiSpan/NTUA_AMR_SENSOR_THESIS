@@ -1,35 +1,51 @@
-| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C5 | ESP32-C6 | ESP32-H2 | ESP32-P4 | ESP32-S2 | ESP32-S3 |
-| ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+# Steel Health Monitoring with AMR Sensors
 
-# _Sample project_
+## Abstract
+Steel health monitoring is of vital importance for assessing the integrity of steel structures in critical infrastructure and industrial applications. Magnetic techniques, such as monitoring differential permeability, which can be used in combination with Magnetic Stress Calibration (MASC) curves, enable non-destructive testing to detect defects in ferromagnetic materials like steel by monitoring their magnetic properties.
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+In this diploma thesis, an Internet of Things (IoT) sensor is implemented, consisting of an anisotropic magnetoresistance (AMR) sensor and a microcontroller, for measuring the surface magnetic flux density and wirelessly transmitting data. The goal is to enable remote real-time steel health monitoring through a web-based graphical interface. Each sensor can operate autonomously or establish a wireless mesh network consisting of identical sensor nodes, allowing deployment in hard-to-reach areas.
 
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+The sensor system was evaluated for its ability to detect magnetic field variations in steel specimens. Finally, a wireless mesh network of sensors was implemented and tested on a steel sample, transmitting its measurements to a central database, enabling real-time visualization of the collected data.
 
+## Features
+- Non-destructive testing for steel health monitoring
+- AMR sensor for magnetic flux density measurements
+- IoT-enabled wireless data transmission
+- Support for Wi-Fi mesh networking
+- Real-time data visualization via a web interface
 
+## Keywords
+- Anisotropic Magnetoresistance (AMR) Sensors
+- Steel Health Monitoring
+- Magnetic Stress Calibration (MASC)
+- Internet of Things (IoT)
+- Wi-Fi Mesh Network
 
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
+## Installation
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/yourusername/steel-health-monitoring.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd steel-health-monitoring
+   ```
+3. Install dependencies (if applicable):
+   ```sh
+   pip install -r requirements.txt  # For Python projects
+   ```
 
-## Example folder contents
+## Usage
+1. Deploy the sensor nodes in the desired locations.
+2. Power on the microcontrollers and establish a Wi-Fi mesh network.
+3. Access the web interface to visualize real-time sensor data.
 
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
+## Author
+[Your Name] - [Your Institution]
 
-Below is short explanation of remaining files in the project folder.
-
-```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
-```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
+## Acknowledgments
+- National Technical University of Athens
+- Supervisors and research advisors
